@@ -23,10 +23,6 @@
   width: 60% !important;
 }
 
-.w-90 {
-  width: 90% !important;
-}
-
 body {
   background-color: white;
   color: black !important;
@@ -71,11 +67,11 @@ body {
   text-align: center !important;
 }
 
-.S2, .S3, .CFCF, .S4, .S5, .S7, .CHOOSEPROCESSOR, .CHOOSEDISPLAY, .CHOOSEFINISH, .CHOOSEMEMORY, .CHOOSECONNECTIVITY, .COLORS {
+.S2, .S3, .CFCF, .S4, .S5, .S7 {
   display: none;
 }
 
-#S-CAPA, #S-COLOR, #S-CUSTOM1, #S-CUSTOM2 {
+#S-CAPA, #S-COLOR {
   font-weight: 400 !important;
 }
 
@@ -135,7 +131,7 @@ small {
 
 .IPHONE-2 {
   border-radius: 4px;
-  padding: 12px;
+  padding: 6px 12px;
   border: 2px solid rgba(216,216,216,0.5);
   display: flex;
   justify-content: center;
@@ -228,32 +224,73 @@ button {
   transition-duration: 0.5s !important;
 }
 
-.IPAD-SPACE {
-  background-color: #abaeb1 !important;
-  color: #abaeb1 !important;
+.IP-PURPLE {
+  background-color: #e2b9e8 !important;
+  color: #e2b9e8 !important;
+}
+
+.IP-LIGHTGREEN {
+  background-color: #9dedd1 !important;
+  color: #9dedd1 !important;
+}
+
+.IP-DARKBLUE {
+  background-color: #636378 !important;
+  color: #636378 !important;
+}
+
+.IP-LIGHTBLUE {
+  background-color: #b2ebec !important;
+  color: #b2ebec !important;
+}
+
+.IP-YELLOW {
+  background-color: #ffe681 !important;
+  color: #ffe681 !important;
+}
+
+.IP-GREEN {
+  background-color: #aee1cd !important;
+  color: #aee1cd !important;
+}
+
+.IP-BLACK {
+  background-color: #3b3b3d !important;
+  color: #3b3b3d !important;
+}
+
+.IP-WHITE {
+  background-color: #efeef0 !important;
+  color: #efeef0 !important;
   border: 1px solid rgba(0,0,0,0.2);
 }
 
-.IPAD-SILVER {
-  background-color: #dddfde !important;
-  color: #dddfde !important;
-  border: 1px solid rgba(0,0,0,0.2);
+.IP-ORANGE {
+  background-color: #feac80 !important;
+  color: #feac80 !important;
 }
 
-.MBAIR-SPACE {
-  background-color: #adb1b4 !important;
-  color: #adb1b4 !important;
-  border: 1px solid rgba(0,0,0,0.2);
+.IP-RED {
+  background-color: #ba0c2e !important;
+  color: #ba0c2e !important;
 }
 
-.MBAIR-GOLD {
-  background-color: #f0ded2 !important;
-  color: #f0ded2 !important;
-  border: 1px solid rgba(0,0,0,0.2);
+.IP-MIDNIGHT {
+  background-color: #4e5851 !important;
+  color: #4e5851 !important;
 }
 
-.MBAIR-SILVER {
-  background-color: #dee0df !important;
-  color: #dee0df !important;
-  border: 1px solid rgba(0,0,0,0.2);
+.IP-SILVER {
+  background-color: #d2d2d2 !important;
+  color: #d2d2d2 !important;
+}
+
+.IP-GREY {
+  background-color: #595856 !important;
+  color: #595856 !important;
+}
+
+.IP-GOLD {
+  background-color: #deb99c !important;
+  color: #deb99c !important;
 }
